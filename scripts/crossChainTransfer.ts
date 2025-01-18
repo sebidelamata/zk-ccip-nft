@@ -17,11 +17,11 @@ async function main() {
   const wallet = new Wallet(privateKey);
   const signer = wallet.connect(provider);
 
-  const xNftAddressSepolia = `0xF7486484140E1575E069A3237201784e44eC5337`;
+  const xNftAddressSepolia = `0x1283aA72dD586b8cbe5ced154857cA1e35501162`;
   
   const from = `0x8E11D12876633885629ffA329Eb7bdAb4AD0Cd3B`;
   const to = `0x8E11D12876633885629ffA329Eb7bdAb4AD0Cd3B`;
-  const tokenId = 4; // put NFT token id here
+  const tokenId = 0; // put NFT token id here
   const destinationChainSelector = `6898391096552792247`;
   const payFeesIn = 1; // 0 - Native, 1 - LINK
 

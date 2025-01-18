@@ -17,7 +17,7 @@ async function main() {
   const wallet = new Wallet(privateKey);
   const signer = wallet.connect(provider);
 
-  const xNftAddressSepolia = `0xF7486484140E1575E069A3237201784e44eC5337`;
+  const xNftAddressSepolia = `0x1283aA72dD586b8cbe5ced154857cA1e35501162`;
 
   const xNft: XNFT = XNFT__factory.connect(xNftAddressSepolia, signer);
 
